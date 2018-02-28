@@ -1,5 +1,6 @@
 package com.bet.model.entities;
 
+import java.io.Serializable;
 import java.util.List;
 
 /**
@@ -7,7 +8,7 @@ import java.util.List;
  * GitHub cnhttt@163.com
  * Work to SZFP
  */
-public class Result {
+public class Result implements Serializable{
     private String sn;
     private String rst;
     private String token;
@@ -54,7 +55,7 @@ public class Result {
         this.data = data;
     }
 
-    public static class DataBean {
+    public static class DataBean implements Serializable{
 
 
 

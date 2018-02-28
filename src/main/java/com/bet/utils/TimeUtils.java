@@ -215,7 +215,15 @@ public class TimeUtils {
     public static String milliseconds2String(long milliseconds) {
         return milliseconds2String(milliseconds, DEFAULT_SDF);
     }
-
+    public static Date getWeekStartDate(){
+        Calendar cal = Calendar.getInstance();
+        cal.set(Calendar.DAY_OF_WEEK, Calendar.MONDAY);
+        cal.set(Calendar.HOUR_OF_DAY, 0);
+        cal.set(Calendar.MINUTE, 0);
+        cal.set(Calendar.SECOND, 0);
+        Date date = cal.getTime();
+        return date;
+    }
     /**
      * 将时间戳转为时间字符串
      * <p>格式为用户自定义</p>
@@ -233,6 +241,15 @@ public class TimeUtils {
         return  String.format(codeFormat,(uID+1));
 
     }
+
+    public  static  String plusDay(Date date,int num){
+        Calendar ca = Calendar.getInstance();
+        ca.add(Calendar.DATE, num);
+        date= ca.getTime();
+        return DEFAULT_YMD.format(date);
+    }
+
+
 
 
     public static String getOperatorNumber(String uniqueNumber, int opNum) {
@@ -722,6 +739,11 @@ public class TimeUtils {
         }
     }
 
+    public static  int stringForWeek(){
+        Calendar cal=Calendar.getInstance();
+        cal.setTime(new Date());
+       return cal.get(Calendar.WEEK_OF_YEAR);
+    }
 
     /** The FieldPosition. */
     private static final FieldPosition HELPER_POSITION = new FieldPosition(0);
