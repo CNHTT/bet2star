@@ -1,9 +1,12 @@
 package com.bet.utils;
 
 import com.bet.model.entities.GroupBean;
+import com.google.gson.internal.LinkedTreeMap;
 
 import java.text.DecimalFormat;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -13,7 +16,7 @@ import java.util.List;
  * 购买
  */
 public class CalculateUtils {
-     static  DecimalFormat    df   = new DecimalFormat("######0.00");
+     public static  DecimalFormat    df   = new DecimalFormat("######0.00");
 
     public static long calculate(String u, int length){
         int intU = Integer.parseInt(u);
@@ -29,10 +32,6 @@ public class CalculateUtils {
         return a/num;
     }
 
-
-    public static void main(String[] args) {
-        System.out.println(calculateCombination("4,5,6",6,"208"));
-    }
 
     public static String calculateNapOrPerm(String under,int length,String amount){
         double amountDouble = Double.parseDouble(amount);
@@ -50,15 +49,27 @@ public class CalculateUtils {
         return df.format(amountDouble/line);
     }
 
-    public static String calculateGrouping(List<GroupBean> list,String amount){
+    public static String calculateGrouping( List<LinkedTreeMap<String,String>>  list, String amount){
+
+//        for (LinkedTreeMap<String,String> g:groupBeans) {
+//            canvas.drawText(g.get("group")+": "+g.get("number")+"("+g.get("item")+")", paint);
+//        }
         int line = 1;
         for (int i = 0; i <list.size() ; i++) {
-            GroupBean groupBean = list.get(i);
-            line= (int) (line*calculate(groupBean.getNumber(),groupBean.getItem().split(",").length));
+            LinkedTreeMap<String,String> groupBean = list.get(i);
+            line= (int) (line*calculate(groupBean.get("number"),groupBean.get("item").split(",").length));
         }
         double amountDouble = Double.parseDouble(amount);
-        System.out.println(line);
+//        System.out.println(line);
         return df.format(amountDouble/line);
 
-    };
+    }
+
+    public static String setBetId(){
+        Date date = new Date();
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMddhhmmssSS");
+        String  formDate =sdf.format(date);
+        System.out.println(formDate);
+        return  formDate.substring(2);
+    }
 }

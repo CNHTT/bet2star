@@ -1,5 +1,7 @@
 package com.bet.model.entities;
 
+import com.google.gson.annotations.SerializedName;
+
 import java.io.Serializable;
 
 /**
@@ -13,16 +15,17 @@ public class GroupBean implements Serializable {
      * item : 1,2,3,4
      */
 
-    private String group;
+    @SerializedName("group")
+    private String bet_group;
     private String number;
     private String item;
 
     public String getGroup() {
-        return group;
+        return bet_group;
     }
 
     public void setGroup(String group) {
-        this.group = group;
+        this.bet_group = group;
     }
 
     public String getNumber() {
@@ -45,7 +48,7 @@ public class GroupBean implements Serializable {
     public String toString() {
         return "" +
                 "" +
-                "A:'" + group + '\'' +
+                "A:'" + bet_group + '\'' +
                 "  :" + number +
                 "(" + item + ")\n" ;
     }

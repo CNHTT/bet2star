@@ -12,7 +12,37 @@ public class MakeBetBean{
 
     private String token;
 
-    private List<Data> data ;
+    private String week;
+
+    private String  old_password  ;
+    private String   new_password  ;
+
+
+    public String getOld_password() {
+        return old_password;
+    }
+
+    public void setOld_password(String old_password) {
+        this.old_password = old_password;
+    }
+
+    public String getNew_password() {
+        return new_password;
+    }
+
+    public void setNew_password(String new_password) {
+        this.new_password = new_password;
+    }
+
+    public String getWeek() {
+        return week;
+    }
+
+    public void setWeek(String week) {
+        this.week = week;
+    }
+
+    private List<MakeBet> data ;
     public static  class Data<T> {
         private String id;
 
@@ -93,11 +123,11 @@ public class MakeBetBean{
         this.token = token;
     }
 
-    public List<Data> getData() {
+    public List<MakeBet> getData() {
         return data;
     }
 
-    public void setData(List<Data> data) {
+    public void setData(List<MakeBet> data) {
         this.data = data;
     }
 }

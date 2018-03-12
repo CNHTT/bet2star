@@ -4,6 +4,11 @@
     <select id="selectUser" resultType="com.bet.model.entities.LoginBean">
         SELECT  sn ,password,default_type,default_sort ,default_under FROM  bet_user WHERE  sn = #{sn} AND  password = #{password}
     </select>
+
+
+    <select id="selectUserToken" resultType="com.bet.model.entities.LoginBean">
+        SELECT  sn ,password,default_type,default_sort ,default_under,amount FROM  bet_user WHERE  sn = #{sn} AND  token = #{token}
+    </select>
     
     <select id="selectSerialExist" resultType="com.bet.model.entities.LoginBean">
         SELECT  sn FROM  bet_user WHERE  sn = #{sn}
@@ -13,5 +18,15 @@
     <update id="updateToken">
         UPDATE  bet_user SET  token = #{token} WHERE  sn = #{sn}
     </update>
+
+
+    <select id="selectCreditLimit" resultType="com.bet.model.entities.DataBean">
+        SELECT  credit_limit from bet_user WHERE  sn = #{sn}
+    </select>
+
+    <update id="updatePass">
+        UPDATE bet_user SET  password = #{new_password} WHERE sn =#{sn}
+    </update>
+
 
 </mapper>

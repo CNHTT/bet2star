@@ -1,5 +1,6 @@
 package com.bet.controller;
 
+import com.bet.model.entities.DataBean;
 import com.bet.model.entities.Result;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -18,9 +19,9 @@ public class BetStarController extends BaseController {
         Result  result  = new Result();
         result.setRst("1");
         result.setDetail("OK");
-        Result.DataBean dataBean = new Result.DataBean();
+        DataBean dataBean = new DataBean();
         dataBean.setSn("123456");
-        dataBean.setDatetime(System.currentTimeMillis());
+        dataBean.setDatetime(String.valueOf(System.currentTimeMillis()));
         result.setData(dataBean);
         return responseRR(result);
     }

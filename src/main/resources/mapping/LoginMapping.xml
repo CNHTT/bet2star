@@ -19,4 +19,14 @@
         UPDATE  bet_user SET  token = #{token} WHERE  sn = #{sn}
     </update>
 
+
+    <select id="selectCreditLimit" resultType="com.bet.model.entities.DataBean">
+        SELECT  credit_limit from bet_user WHERE  sn = #{sn}
+    </select>
+
+    <update id="updatePass">
+        UPDATE bet_user SET  password = #{new_password} WHERE sn =#{sn}
+    </update>
+
+
 </mapper>

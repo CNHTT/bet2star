@@ -1,6 +1,7 @@
 package com.bet.service.impl;
 
 import com.bet.dao.LoginDao;
+import com.bet.model.entities.DataBean;
 import com.bet.model.entities.LoginBean;
 import com.bet.service.LoginService;
 import org.springframework.stereotype.Service;
@@ -38,6 +39,16 @@ public class LoginServiceImpl implements LoginService {
 
     @Override
     public LoginBean getMakeBean(String sn, String token) {
-        return null;
+        return loginDao.selectUserToken(sn,token);
+    }
+
+    @Override
+    public DataBean getCreditLimit(String sn) {
+        return loginDao.selectCreditLimit(sn);
+    }
+
+    @Override
+    public void changePassword(String new_password, String sn) {
+        loginDao.updatePass(new_password,sn) ;
     }
 }

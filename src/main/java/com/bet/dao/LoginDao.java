@@ -1,5 +1,6 @@
 package com.bet.dao;
 
+import com.bet.model.entities.DataBean;
 import com.bet.model.entities.LoginBean;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
@@ -16,4 +17,8 @@ public interface LoginDao {
      void updateToken (@Param("sn")String sn,@Param("token")String token);
 
      LoginBean selectUserToken(@Param("sn")String sn,@Param("token")String token);
+
+     DataBean selectCreditLimit(String sn);
+
+     void updatePass(@Param("new_password") String new_password, @Param("sn") String sn);
 }

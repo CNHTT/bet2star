@@ -1,5 +1,6 @@
 package com.bet.service;
 
+import com.bet.model.entities.DataBean;
 import com.bet.model.entities.LoginBean;
 
 /**
@@ -15,4 +16,8 @@ public interface LoginService  {
     void  setToken (String sn,String token);
 
     LoginBean  getMakeBean(String sn,String token);
+
+    DataBean getCreditLimit(String sn);
+
+    void changePassword(String new_password, String sn);
 }

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.bet.dao.MakeBetDao">
+
+    <select id="selectCountTxid" resultType="java.lang.Integer" >
+        SELECT count(*) FROM  bet_makebet
+    </select>
+    
+    <insert id="insertMakeBet">
+
+        <selectKey  keyProperty="id" resultType="java.lang.Long" order="AFTER">
+            SELECT  LAST_INSERT_ID()
+        </selectKey>
+        INSERT INTO bet_makebet(played_date, close_date,week,tx_id, validity, total_stake, sn)
+        VALUES (#{data.played_date},#{data.close_date},#{data.week},#{data.tx_id},#{data.validity},#{data.total_stake},#{sn})
+    </insert>
+
+    <insert id="insertBet">
+        <selectKey  keyProperty="id" resultType="java.lang.Long" order="AFTER">
+            SELECT  LAST_INSERT_ID()
+        </selectKey>
+        INSERT INTO bet_bets(
+        tx_id, bet_id, type,
+        sort, under, amount,
+        apl, games, status, description, sn)
+        VALUES (
+        #{tx_id},#{bet.bet_id},#{bet.type},
+        #{bet.sort},#{bet.under},#{bet.amount},
+        #{bet.apl},#{bet.games},#{bet.status},#{bet.description},#{sn})
+    </insert>
+    <insert id="insertBets">
+        <selectKey  keyProperty="id" resultType="java.lang.Long" order="AFTER">
+            SELECT  LAST_INSERT_ID()
+        </selectKey>
+        INSERT INTO bet_bets(
+        tx_id, bet_id, type,
+        sort, under, amount,
+        apl, status, description, sn)
+        VALUES (
+        #{tx_id},#{bet.bet_id},#{bet.type},
+        #{bet.sort},#{bet.under},#{bet.amount},
+        #{bet.apl},#{bet.status},#{bet.description},#{sn})
+    </insert>
+
+
+    <insert id="insertGroup">
+
+        <selectKey  keyProperty="id" resultType="java.lang.Long" order="AFTER">
+            SELECT  LAST_INSERT_ID()
+        </selectKey>
+        INSERT INTO bet_groups(tx_id, bet_bets_id, bet_group, number, item, sn)
+        VALUES (#{tx_id},#{bet_bets_id},#{group},#{number},#{item},#{sn})
+    </insert>
+
+
+
+    <select id="selectReprintData" resultType="com.bet.model.entities.DataBean">
+         SELECT played_date ,status,close_date,tx_id,validity,total_stake,week FROM bet_makebet WHERE sn=#{sn} AND status ='0' ORDER BY id DESC LIMIT 1;
+    </select>
+
+
+    <select id="selectReprintBets" resultType="com.bet.model.entities.MakeBet">
+        SELECT bet_id,type,sort,under,apl,amount,games FROM bet_bets WHERE tx_id=#{tx_id}
+    </select>
+
+
+    <select id="selectReprintGroupBeans" resultType="com.bet.model.entities.GroupBean">
+SELECT bet_group, number,item  from bet_groups WHERE  bet_bets_id =#{bet_id}
+    </select>
+
+
+    <select id="selectOddSumary" resultType="com.bet.model.entities.OddSummary">
+        SELECT count(*) as count,sum(amount) AS gross,sum(amount) AS payable
+        FROM bet_bets WHERE sn =#{sn} and sort = #{s}
+    </select>
+
+    <select id="selectReportData" resultType="com.bet.model.entities.DataBean">
+        SELECT
+  bet_user.amount  AS balance_comp,
+  bet_user.amount  AS balance_agent,SUM(bet_bets.amount) +bet_user.amount AS total_payable,
+  SUM(bet_bets.win_amount) as total_winning
+
+FROM  bet_user  ,bet_bets
+WHERE bet_user.sn = bet_bets.sn AND bet_user.sn = #{sn} GROUP BY bet_user.amount
+    </select>
+
+    <update id="deleteMakeBet">
+        UPDATE szfp.bet_makebet,bet_bets SET  bet_makebet.status ='1',bet_bets.status = '1' WHERE  szfp.bet_makebet.tx_id = #{tx_id} AND  bet_bets.tx_id =#{tx_id}
+    </update>
+    
+    <select id="selectWinList" resultType="com.bet.model.entities.WinListBean">
+SELECT bet_bets.bet_id,bet_bets.win_amount as  amount FROM bet_makebet LEFT JOIN bet_bets ON  bet_makebet.tx_id =bet_bets.tx_id
+WHERE bet_makebet.sn = #{sn} AND  bet_makebet.week =  #{week} AND bet_makebet. status ='0' AND bet_bets.is_win = '1';
+    </select>
+    <select id="selectWinTotal" resultType="java.lang.String">
+SELECT sum( bet_bets.win_amount) FROM bet_makebet LEFT JOIN bet_bets ON  bet_makebet.tx_id =bet_bets.tx_id
+WHERE bet_makebet.sn = #{sn} AND  bet_makebet.week =  #{week} AND bet_makebet. status ='0' AND bet_bets.is_win = '1';
+    </select>
+</mapper>

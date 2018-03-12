@@ -1,5 +1,6 @@
 package com.bet.controller;
 
+import com.bet.model.entities.DataBean;
 import com.bet.model.entities.LoginBean;
 import com.bet.model.entities.Result;
 import com.bet.service.LoginService;
@@ -72,15 +73,15 @@ public class LoginController extends BaseController {
 
 
             result .setSn(loginBean.getSn());
-            result .setRst(sn);
+            result .setRst("1");
             result .setToken(token);
             loginService.setToken(sn,token);
             result .setDetail("Success");
-            Result.DataBean dataBean =  new Result.DataBean();
+            DataBean dataBean =  new DataBean();
             dataBean.setDefault_type(loginBean.getDefault_type());
             dataBean.setDefault_sort(loginBean.getDefault_sort());
             dataBean.setDefault_under(loginBean.getDefault_under());
-            dataBean.setDatetime(TimeUtils.getCurTimeMills());
+            dataBean.setDatetime(String.valueOf(TimeUtils.getCurTimeMills()));
             result.setData(dataBean);
         } catch (Exception e) {
                 log.info("system.out: "+e.getMessage());
