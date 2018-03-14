@@ -125,9 +125,29 @@ public class MakeBetController extends BaseController {
 
                         case "3":
                             group =true;
+                            int under=0;
                             listMakeBet  = list.get(i);
                             List<LinkedTreeMap<String,String>>  groupBeans;
                             groupBeans = (List<LinkedTreeMap<String, String>>) item.getGames();
+                            if (groupBeans ==null&&groupBeans.size()==0){
+                                item.setStatus("1");
+                                item.setDescription("Your stake must be reached minimum per line requirement.");
+                                continue;
+                            }
+                            for (int j = 0; j <list.size() ; j++) {
+                                LinkedTreeMap<String,String> groupBean = groupBeans.get(i);
+                                if (Integer.valueOf(groupBean.get("number"))>groupBean.get("item").split(",").length){
+
+                                    under = under+Integer.valueOf(groupBean.get("number"));
+                                    item.setStatus("1");
+                                    item.setDescription("Your stake must be reached minimum per line requirement.");break;
+                                }
+                            }
+                            if (under!=Integer.valueOf(item.getUnder())){
+
+                                item.setStatus("1");
+                                item.setDescription("Your stake must be reached minimum per line requirement.");break;
+                            }
 
                             listMakeBet.setApl(String.valueOf(CalculateUtils.calculateGrouping(groupBeans,listMakeBet.getAmount())));
                             break;
@@ -152,7 +172,6 @@ public class MakeBetController extends BaseController {
             data.setBets(list);
 
 
-            if (npa&&group) return returnFail(sn);
 
             result.setData(data);
 
