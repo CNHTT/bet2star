@@ -6,85 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e80779f-e2ce-43b2-b04f-13899c87a6e9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bet/controller/PosFunctionController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bet/dao/MakeBetDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bet/dao/PosFunctionDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bet/model/entities/DataBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bet/service/MakeBetService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bet/service/PosFunctionService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bet/service/impl/MakeBetServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bet/service/impl/PosFunctionServerImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mapping/MakeBetMapping.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mapping/PosFunctionMapping.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bet/model/entities/Result$DataBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/model/entities/Result$DataBean.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bet/controller/BetStarController.class" afterPath="$PROJECT_DIR$/target/classes/com/bet/controller/BetStarController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bet/controller/LoginController.class" afterPath="$PROJECT_DIR$/target/classes/com/bet/controller/LoginController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bet/controller/MakeBetController.class" afterPath="$PROJECT_DIR$/target/classes/com/bet/controller/MakeBetController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bet/dao/LoginDao.class" afterPath="$PROJECT_DIR$/target/classes/com/bet/dao/LoginDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bet/model/entities/GroupBean.class" afterPath="$PROJECT_DIR$/target/classes/com/bet/model/entities/GroupBean.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bet/model/entities/LoginBean.class" afterPath="$PROJECT_DIR$/target/classes/com/bet/model/entities/LoginBean.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bet/model/entities/MakeBetBean$Data.class" afterPath="$PROJECT_DIR$/target/classes/com/bet/model/entities/MakeBetBean$Data.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bet/model/entities/MakeBetBean.class" afterPath="$PROJECT_DIR$/target/classes/com/bet/model/entities/MakeBetBean.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bet/model/entities/Result.class" afterPath="$PROJECT_DIR$/target/classes/com/bet/model/entities/Result.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bet/model/response/BaseEntity.class" afterPath="$PROJECT_DIR$/target/classes/com/bet/model/response/BaseEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bet/service/LoginService.class" afterPath="$PROJECT_DIR$/target/classes/com/bet/service/LoginService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bet/service/impl/LoginServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/bet/service/impl/LoginServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bet/utils/ByteUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/bet/utils/ByteUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bet/utils/CalculateUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/bet/utils/CalculateUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bet/utils/ConstUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/bet/utils/ConstUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bet/utils/DataUtils$1.class" afterPath="$PROJECT_DIR$/target/classes/com/bet/utils/DataUtils$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bet/utils/DataUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/bet/utils/DataUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bet/utils/FileUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/bet/utils/FileUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bet/utils/ServerThread.class" afterPath="$PROJECT_DIR$/target/classes/com/bet/utils/ServerThread.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bet/utils/SocketPool.class" afterPath="$PROJECT_DIR$/target/classes/com/bet/utils/SocketPool.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bet/utils/TimeUtils$1.class" afterPath="$PROJECT_DIR$/target/classes/com/bet/utils/TimeUtils$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bet/utils/TimeUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/bet/utils/TimeUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/controller/BetStarController.class" afterPath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/controller/BetStarController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/controller/LoginController.class" afterPath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/controller/LoginController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/controller/MakeBetController.class" afterPath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/controller/MakeBetController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/dao/LoginDao.class" afterPath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/dao/LoginDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/model/entities/GroupBean.class" afterPath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/model/entities/GroupBean.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/model/entities/LoginBean.class" afterPath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/model/entities/LoginBean.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/model/entities/MakeBetBean$Data.class" afterPath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/model/entities/MakeBetBean$Data.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/model/entities/MakeBetBean.class" afterPath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/model/entities/MakeBetBean.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/model/entities/Result.class" afterPath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/model/entities/Result.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/model/response/BaseEntity.class" afterPath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/model/response/BaseEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/service/LoginService.class" afterPath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/service/LoginService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/service/impl/LoginServiceImpl.class" afterPath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/service/impl/LoginServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/utils/ByteUtils.class" afterPath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/utils/ByteUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/utils/CalculateUtils.class" afterPath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/utils/CalculateUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/utils/ConstUtils.class" afterPath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/utils/ConstUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/utils/DataUtils$1.class" afterPath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/utils/DataUtils$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/utils/DataUtils.class" afterPath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/utils/DataUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/utils/FileUtils.class" afterPath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/utils/FileUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/utils/ServerThread.class" afterPath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/utils/ServerThread.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/utils/SocketPool.class" afterPath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/utils/SocketPool.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/utils/TimeUtils$1.class" afterPath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/utils/TimeUtils$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/utils/TimeUtils.class" afterPath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/utils/TimeUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/249c1eca-54f9-4e00-88a6-796d64dae5b7.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/249c1eca-54f9-4e00-88a6-796d64dae5b7.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bet/controller/BetStarController.java" afterPath="$PROJECT_DIR$/src/main/java/com/bet/controller/BetStarController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bet/controller/LoginController.java" afterPath="$PROJECT_DIR$/src/main/java/com/bet/controller/LoginController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bet/controller/MakeBetController.java" afterPath="$PROJECT_DIR$/src/main/java/com/bet/controller/MakeBetController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bet/dao/LoginDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/bet/dao/LoginDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bet/model/entities/GroupBean.java" afterPath="$PROJECT_DIR$/src/main/java/com/bet/model/entities/GroupBean.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bet/model/entities/MakeBetBean.java" afterPath="$PROJECT_DIR$/src/main/java/com/bet/model/entities/MakeBetBean.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bet/model/entities/Result.java" afterPath="$PROJECT_DIR$/src/main/java/com/bet/model/entities/Result.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bet/service/LoginService.java" afterPath="$PROJECT_DIR$/src/main/java/com/bet/service/LoginService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bet/service/impl/LoginServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/bet/service/impl/LoginServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bet/utils/CalculateUtils.java" afterPath="$PROJECT_DIR$/src/main/java/com/bet/utils/CalculateUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapping/LoginMapping.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapping/LoginMapping.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jdbc.properties" afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapping/LoginMapping.xml" afterPath="$PROJECT_DIR$/target/classes/mapping/LoginMapping.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.bet/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/target/com.bet/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/jdbc.properties" afterPath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/jdbc.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/mapping/LoginMapping.xml" afterPath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/mapping/LoginMapping.xml" />
-    </list>
+    <list default="true" id="5e80779f-e2ce-43b2-b04f-13899c87a6e9" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -140,7 +62,18 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf>
+      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bet/controller/LoginController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="765">
+              <caret line="86" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -255,7 +188,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -438,6 +370,7 @@
       </pane>
       <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1072,14 +1005,16 @@
       <workItem from="1520142159806" duration="6729000" />
       <workItem from="1520148947120" duration="4000" />
       <workItem from="1520861137313" duration="6823000" />
+      <workItem from="1521209088020" duration="11000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112303000" />
+    <option name="totallyTimeSpent" value="112314000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1096,20 +1031,17 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43636364" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22032085" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5080214" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5080214" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25882354" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4445629" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44936034" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1118,7 +1050,10 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22032085" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25882354" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1471,7 +1406,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1489,14 +1423,6 @@
           <folding>
             <element signature="e#389#390#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bet/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="86" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1536,7 +1462,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
           <caret line="28" column="115" lean-forward="true" selection-start-line="28" selection-start-column="115" selection-end-line="28" selection-end-column="115" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1622,6 +1547,14 @@
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bet/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="86" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
