@@ -74,6 +74,7 @@ public class LoginController extends BaseController {
 
             result .setSn(loginBean.getSn());
             result .setRst("1");
+            
             result .setToken(token);
             loginService.setToken(sn,token);
             result .setDetail("Success");
