@@ -102,4 +102,11 @@ public class BaseController {
         result.setDetail("Validy date is not defined.");
         return new GsonUtils().toJson(result);
     }
+    String returnOOOOOO(String sn,String msg) {
+        Result result = new Result();
+        result.setSn(result.getSn());
+        result.setRst("-1");
+        result.setDetail(msg);
+        return new GsonUtils().toJson(result);
+    }
 }

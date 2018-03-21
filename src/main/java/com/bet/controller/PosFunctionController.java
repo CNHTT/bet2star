@@ -64,7 +64,7 @@ public class PosFunctionController extends BaseController {
                 result.setSn(sn);
                 result.setRst("1");
                 data.setWeek(week);
-                data.setDrawn(Arrays.asList(drawn.split(",")));
+                data.setDrawn(new GsonUtils().fromJson(drawn,List.class));
                 result.setData(data);
                 return responseRR(result);
             } else {
@@ -169,13 +169,13 @@ public class PosFunctionController extends BaseController {
             if(week ==null) week = String.valueOf(TimeUtils.stringForWeek());
             List<WinListBean>  listBeans = makeBetService.getWinList(week,sn);
             if (listBeans ==null) {
-
                 listBeans = new ArrayList<>();
-
                 dataBean.setTotal("0");
             }else {
                 dataBean.setTotal(makeBetService.getWinTotal(week,sn));
             }
+            if (listBeans.size()==0)
+                dataBean.setTotal("0");
             dataBean.setWinlist(listBeans);
             dataBean.setWeek(week);
             dataBean.setClose_date(TimeUtils.date2String(TimeUtils.getWeekStartDate()));
@@ -428,7 +428,7 @@ public class PosFunctionController extends BaseController {
 
                 makeBetService.deleteMakeBet(data.getTx_id());
 
-                result.setDetail("Success");
+                result.setDetail( "Last transaction delete Success");
                 result.setSn(sn);
                 result.setRst("1");
                 return responseRR(result);

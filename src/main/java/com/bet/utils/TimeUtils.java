@@ -224,6 +224,15 @@ public class TimeUtils {
         Date date = cal.getTime();
         return date;
     }
+    public static Date getWeekStartDate1(){
+        Calendar cal = Calendar.getInstance();
+        cal.set(Calendar.DAY_OF_WEEK, Calendar.SATURDAY);
+        cal.set(Calendar.HOUR_OF_DAY, 12);
+        cal.set(Calendar.MINUTE, 0);
+        cal.set(Calendar.SECOND, 0);
+        Date date = cal.getTime();
+        return date;
+    }
     /**
      * 将时间戳转为时间字符串
      * <p>格式为用户自定义</p>

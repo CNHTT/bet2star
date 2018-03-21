@@ -31,6 +31,17 @@ public class MakeBet<T> implements Serializable {
     private String bet_id;
 
 
+    private String winAmount;
+
+
+    public String getWinAmount() {
+        return winAmount;
+    }
+
+    public void setWinAmount(String winAmount) {
+        this.winAmount = winAmount;
+    }
+
     public String getApl() {
         return apl;
     }

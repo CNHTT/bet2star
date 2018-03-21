@@ -18,6 +18,12 @@ public class MakeBetBean{
     private String   new_password  ;
 
 
+    private List<String>  weeks;
+
+    public List<String> getWeeks() {
+        return weeks;
+    }
+
     public String getOld_password() {
         return old_password;
     }

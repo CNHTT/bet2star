@@ -96,4 +96,29 @@ WHERE bet_makebet.sn = #{sn} AND  bet_makebet.week =  #{week} AND bet_makebet. s
 SELECT sum( bet_bets.win_amount) FROM bet_makebet LEFT JOIN bet_bets ON  bet_makebet.tx_id =bet_bets.tx_id
 WHERE bet_makebet.sn = #{sn} AND  bet_makebet.week =  #{week} AND bet_makebet. status ='0' AND bet_bets.is_win = '1';
     </select>
+
+
+    <select id="getWeek" resultType="com.bet.model.entities.MakeBet">
+            SELECT bet_bets .bet_id,bet_bets .games,bet_bets .amount,bet_bets.sort,bet_bets.type
+            FROM  bet_makebet LEFT JOIN bet_bets ON  bet_makebet.tx_id =bet_bets.tx_id
+            WHERE  bet_makebet.week = #{week}  AND bet_makebet.status='0'
+    </select>
+
+    <update id="updateBetAmount">
+        UPDATE  szfp.bet_bets SET win_amount = #{bet.winAmount} ,szfp.bet_bets.is_win='1' WHERE  szfp.bet_bets.bet_id = #{bet.bet_id}
+    </update>
+
+
+    <update id="selectWeek">
+        UPDATE  szfp.bet_week SET drawn = #{s} WHERE  szfp.bet_week.week = #{week}
+    </update>
+
+
+    <insert id="addWeek">
+       INSERT INTO bet_week(drawn, week)
+        VALUES (#{drawn},#{week})
+    </insert>
+
+
+
 </mapper>

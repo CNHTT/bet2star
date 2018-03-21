@@ -29,4 +29,12 @@ public interface MakeBetService {
     List<WinListBean> getWinList(String s, String week);
 
     String getWinTotal(String week, String sn);
+
+    List<MakeBet> getWeek(String week);
+
+    void updateAmount(MakeBet bet);
+
+    void setWeek(String week, String s);
+
+    void addWeek(String week, String s);
 }

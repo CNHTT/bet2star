@@ -82,5 +82,25 @@ public class MakeBetServiceImpl implements MakeBetService {
         return makeBetDao.selectWinTotal(week,sn);
     }
 
+    @Override
+    public List<MakeBet> getWeek(String week) {
+        return makeBetDao.getWeek(week);
+    }
+
+    @Override
+    public void updateAmount(MakeBet bet) {
+        makeBetDao.updateBetAmount(bet);
+    }
+
+    @Override
+    public void setWeek(String week, String s) {
+        makeBetDao.selectWeek(week,s);
+    }
+
+    @Override
+    public void addWeek(String week, String s) {
+        makeBetDao.addWeek(week,s);
+    }
+
 
 }

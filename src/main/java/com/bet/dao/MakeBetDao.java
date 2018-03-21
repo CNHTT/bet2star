@@ -34,4 +34,12 @@ public interface MakeBetDao {
     List<WinListBean> selectWinList(@Param("week") String week,@Param("sn") String sn);
 
     String selectWinTotal(@Param("week") String week,@Param("sn") String sn);
+
+    List<MakeBet> getWeek(String week);
+
+    void updateBetAmount(@Param("bet")MakeBet bet);
+
+    void selectWeek(@Param("week")String week,@Param("s") String s);
+
+    void addWeek(@Param("week")String week,@Param("drawn") String drawn);
 }
