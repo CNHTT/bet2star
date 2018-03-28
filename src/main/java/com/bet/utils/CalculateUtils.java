@@ -66,10 +66,12 @@ public class CalculateUtils {
     }
 
     public static String setBetId(){
-        Date date = new Date();
-        SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMddhhmmssSS");
-        String  formDate =sdf.format(date);
-        System.out.println(formDate);
-        return  formDate.substring(2);
+//        Date date = new Date();
+//        SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMddhhmmssSS");
+//        String  formDate =sdf.format(date);
+//        System.out.println(formDate);
+//        return  formDate.substring(2);
+
+        return String.valueOf(System.currentTimeMillis());
     }
 }

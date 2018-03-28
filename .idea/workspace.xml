@@ -7,51 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e80779f-e2ce-43b2-b04f-13899c87a6e9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/DOC/POS API Document_2018_02_05.docx" afterPath="$PROJECT_DIR$/src/main/webapp/DOC/POS API Document_2018_02_05.docx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/bet.war" afterPath="$PROJECT_DIR$/target/bet.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bet/controller/BaseController.class" afterPath="$PROJECT_DIR$/target/classes/com/bet/controller/BaseController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bet/controller/LoginController.class" afterPath="$PROJECT_DIR$/target/classes/com/bet/controller/LoginController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bet/controller/MakeBetController.class" afterPath="$PROJECT_DIR$/target/classes/com/bet/controller/MakeBetController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bet/controller/PosFunctionController.class" afterPath="$PROJECT_DIR$/target/classes/com/bet/controller/PosFunctionController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bet/dao/MakeBetDao.class" afterPath="$PROJECT_DIR$/target/classes/com/bet/dao/MakeBetDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bet/model/entities/MakeBet.class" afterPath="$PROJECT_DIR$/target/classes/com/bet/model/entities/MakeBet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bet/model/entities/MakeBetBean$Data.class" afterPath="$PROJECT_DIR$/target/classes/com/bet/model/entities/MakeBetBean$Data.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bet/model/entities/MakeBetBean.class" afterPath="$PROJECT_DIR$/target/classes/com/bet/model/entities/MakeBetBean.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bet/service/MakeBetService.class" afterPath="$PROJECT_DIR$/target/classes/com/bet/service/MakeBetService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bet/service/impl/MakeBetServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/bet/service/impl/MakeBetServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bet/utils/TimeUtils$1.class" afterPath="$PROJECT_DIR$/target/classes/com/bet/utils/TimeUtils$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bet/utils/TimeUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/bet/utils/TimeUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.bet/DOC/POS API Document_2018_02_05.docx" afterPath="$PROJECT_DIR$/target/com.bet/DOC/POS API Document_2018_02_05.docx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/controller/BaseController.class" afterPath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/controller/BaseController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/controller/LoginController.class" afterPath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/controller/LoginController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/controller/MakeBetController.class" afterPath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/controller/MakeBetController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/controller/PosFunctionController.class" afterPath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/controller/PosFunctionController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/dao/MakeBetDao.class" afterPath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/dao/MakeBetDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/model/entities/MakeBet.class" afterPath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/model/entities/MakeBet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/model/entities/MakeBetBean$Data.class" afterPath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/model/entities/MakeBetBean$Data.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/model/entities/MakeBetBean.class" afterPath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/model/entities/MakeBetBean.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/service/MakeBetService.class" afterPath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/service/MakeBetService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/service/impl/MakeBetServiceImpl.class" afterPath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/service/impl/MakeBetServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/utils/TimeUtils$1.class" afterPath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/utils/TimeUtils$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/utils/TimeUtils.class" afterPath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/utils/TimeUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/249c1eca-54f9-4e00-88a6-796d64dae5b7.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/249c1eca-54f9-4e00-88a6-796d64dae5b7.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bet.war" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bet/controller/BaseController.java" afterPath="$PROJECT_DIR$/src/main/java/com/bet/controller/BaseController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bet/controller/MakeBetController.java" afterPath="$PROJECT_DIR$/src/main/java/com/bet/controller/MakeBetController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bet/controller/PosFunctionController.java" afterPath="$PROJECT_DIR$/src/main/java/com/bet/controller/PosFunctionController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bet/dao/MakeBetDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/bet/dao/MakeBetDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bet/model/entities/MakeBet.java" afterPath="$PROJECT_DIR$/src/main/java/com/bet/model/entities/MakeBet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bet/model/entities/MakeBetBean.java" afterPath="$PROJECT_DIR$/src/main/java/com/bet/model/entities/MakeBetBean.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bet/service/MakeBetService.java" afterPath="$PROJECT_DIR$/src/main/java/com/bet/service/MakeBetService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bet/service/impl/MakeBetServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/bet/service/impl/MakeBetServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bet/utils/TimeUtils.java" afterPath="$PROJECT_DIR$/src/main/java/com/bet/utils/TimeUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapping/MakeBetMapping.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapping/MakeBetMapping.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapping/MakeBetMapping.xml" afterPath="$PROJECT_DIR$/target/classes/mapping/MakeBetMapping.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.bet/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/target/com.bet/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/mapping/MakeBetMapping.xml" afterPath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/mapping/MakeBetMapping.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.bet/index.jsp" afterPath="$PROJECT_DIR$/target/com.bet/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bet/utils/CalculateUtils.java" afterPath="$PROJECT_DIR$/src/main/java/com/bet/utils/CalculateUtils.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -100,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PosFunctionController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/bet/controller/PosFunctionController.java">
+      <file leaf-file-name="MakeBetController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bet/controller/MakeBetController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1175">
-              <caret line="177" column="39" lean-forward="false" selection-start-line="177" selection-start-column="39" selection-end-line="177" selection-end-column="39" />
+            <state relative-caret-position="615">
+              <caret line="187" column="70" lean-forward="false" selection-start-line="187" selection-start-column="70" selection-end-line="187" selection-end-column="70" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -112,27 +71,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataBean.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/bet/model/entities/DataBean.java">
+      <file leaf-file-name="CalculateUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bet/utils/CalculateUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-478">
-              <caret line="34" column="28" lean-forward="true" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
-              <folding>
-                <element signature="e#1846#1847#0" expanded="true" />
-                <element signature="e#1878#1879#0" expanded="true" />
-                <element signature="e#3362#3363#0" expanded="true" />
-                <element signature="e#3396#3397#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="837">
+              <caret line="74" column="58" lean-forward="false" selection-start-line="74" selection-start-column="58" selection-end-line="74" selection-end-column="58" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PosFunctionServerImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/bet/service/impl/PosFunctionServerImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-              <folding />
+      <file leaf-file-name="bet_user" pinned="false" current-in-tab="false">
+        <entry file="das://table:/765be1f9/249c1eca-54f9-4e00-88a6-796d64dae5b7/szfp.bet_user">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -146,28 +99,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GsonUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/bet/utils/GsonUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1888">
-              <caret line="133" column="0" lean-forward="false" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
-              <folding>
-                <element signature="e#3864#3865#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PosFunctionService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/bet/service/PosFunctionService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="bet_groups" pinned="false" current-in-tab="false">
         <entry file="das://table:/765be1f9/249c1eca-54f9-4e00-88a6-796d64dae5b7/szfp.bet_groups">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
@@ -177,33 +108,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MakeBetMapping.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/MakeBetMapping.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="101" column="96" lean-forward="false" selection-start-line="101" selection-start-column="96" selection-end-line="101" selection-end-column="96" />
-              <folding>
-                <marker date="1521553016742" expanded="true" signature="268:301" ph="SELECT count... bet_makebet" />
-                <marker date="1521553016742" expanded="true" signature="2129:2271" ph="SELECT playe... bet_makebet" />
-                <marker date="1521553016742" expanded="true" signature="2377:2458" ph="SELECT bet_i... bet_bets" />
-                <marker date="1521553016742" expanded="true" signature="2563:2639" ph="SELECT bet_g... bet_groups" />
-                <marker date="1521553016742" expanded="true" signature="2745:2867" ph="SELECT count... " />
-                <marker date="1521553016742" expanded="true" signature="2971:3257" ph="SELECT bet_u... bet_user" />
-                <marker date="1521553016742" expanded="true" signature="3176:3257" ph="SELECT bet_u... bet_user" />
-                <marker date="1521553016742" expanded="true" signature="3313:3467" ph="UPDATE szfp.... " />
-                <marker date="1521553016742" expanded="true" signature="3567:3811" ph="SELECT bet_b... bet_makebet" />
-                <marker date="1521553016742" expanded="true" signature="3890:4113" ph="SELECT sum( bet_makebet" />
-                <marker date="1521553016742" expanded="true" signature="4213:4447" ph="SELECT bet_b... bet_makebet" />
-                <marker date="1521553016742" expanded="true" signature="4213:4458" ph="SELECT bet_b... bet_makebet" />
-                <marker date="1521553016742" expanded="true" signature="4516:4641" ph="UPDATE szfp.... " />
-                <marker date="1521553016742" expanded="true" signature="4695:4769" ph="UPDATE szfp.... " />
-                <marker date="1521553016742" expanded="true" signature="4819:4886" ph="INSERT INTO bet_week... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bet_bets" pinned="false" current-in-tab="false">
+      <file leaf-file-name="bet_bets" pinned="false" current-in-tab="true">
         <entry file="das://table:/765be1f9/249c1eca-54f9-4e00-88a6-796d64dae5b7/szfp.bet_bets">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
@@ -276,7 +181,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/bet/dao/LoginDao.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapping/LoginMapping.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/bet/controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bet/utils/CalculateUtils.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/bet/utils/TimeUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bet/model/entities/MakeBetBean.java" />
@@ -287,9 +191,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/bet/service/impl/MakeBetServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bet/dao/MakeBetDao.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapping/MakeBetMapping.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bet/controller/MakeBetController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bet/controller/PosFunctionController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bet/model/entities/DataBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bet/utils/CalculateUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bet/controller/MakeBetController.java" />
       </list>
     </option>
   </component>
@@ -312,10 +217,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="785" />
-    <option name="y" value="216" />
-    <option name="width" value="974" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-255" />
+    <option name="y" value="71" />
+    <option name="width" value="1896" />
     <option name="height" value="1098" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -335,8 +240,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -469,6 +372,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -1114,14 +1019,16 @@
       <workItem from="1521465250122" duration="1242000" />
       <workItem from="1521552110278" duration="5025000" />
       <workItem from="1521635375370" duration="2460000" />
+      <workItem from="1521957019617" duration="571000" />
+      <workItem from="1522241925883" duration="3111000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="144738000" />
+    <option name="totallyTimeSpent" value="148420000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-255" y="71" width="1896" height="1098" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52834225" sideWeight="0.21695095" order="7" side_tool="true" content_ui="tabs" />
@@ -1131,7 +1038,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13752665" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13752665" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1143,11 +1050,11 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52834225" sideWeight="0.78304905" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38609627" sideWeight="0.78304905" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20682302" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21568628" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1190,12 +1097,12 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.52834225" sideWeight="0.78304905" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38609627" sideWeight="0.78304905" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47807488" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20682302" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21108742" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1289,7 +1196,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="370">
           <caret line="204" column="0" lean-forward="true" selection-start-line="204" selection-start-column="0" selection-end-line="204" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1396,14 +1302,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
           <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bet/utils/CalculateUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="43" column="29" lean-forward="false" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -1472,7 +1370,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
           <caret line="38" column="8" lean-forward="true" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1480,7 +1377,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="685">
           <caret line="104" column="11" lean-forward="false" selection-start-line="104" selection-start-column="11" selection-end-line="104" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1488,7 +1384,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1496,17 +1391,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="132" column="0" lean-forward="false" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bet/controller/MakeBetController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="313" column="0" lean-forward="false" selection-start-line="313" selection-start-column="0" selection-end-line="313" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1514,20 +1398,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="492">
           <caret line="39" column="36" lean-forward="false" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bet/service/impl/PosFunctionServerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/765be1f9/249c1eca-54f9-4e00-88a6-796d64dae5b7/szfp.bet_user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bet/utils/GsonUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1888">
+          <caret line="133" column="0" lean-forward="false" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
+          <folding>
+            <element signature="e#3864#3865#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bet/service/PosFunctionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/MakeBetMapping.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
+        <state relative-caret-position="1616">
           <caret line="101" column="96" lean-forward="false" selection-start-line="101" selection-start-column="96" selection-end-line="101" selection-end-column="96" />
           <folding>
             <marker date="1521553016742" expanded="true" signature="268:301" ph="SELECT count... bet_makebet" />
@@ -1549,6 +1451,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bet/model/entities/DataBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-128">
+          <caret line="34" column="28" lean-forward="false" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bet/controller/PosFunctionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-464">
+          <caret line="177" column="39" lean-forward="false" selection-start-line="177" selection-start-column="39" selection-end-line="177" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/765be1f9/249c1eca-54f9-4e00-88a6-796d64dae5b7/szfp.bet_user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
     <entry file="das://table:/765be1f9/249c1eca-54f9-4e00-88a6-796d64dae5b7/szfp.bet_groups">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -1556,28 +1483,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bet/service/PosFunctionService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bet/utils/CalculateUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        <state relative-caret-position="837">
+          <caret line="74" column="58" lean-forward="false" selection-start-line="74" selection-start-column="58" selection-end-line="74" selection-end-column="58" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/765be1f9/249c1eca-54f9-4e00-88a6-796d64dae5b7/szfp.bet_week">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bet/utils/GsonUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1888">
-          <caret line="133" column="0" lean-forward="false" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
-          <folding>
-            <element signature="e#3864#3865#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1588,41 +1498,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/765be1f9/249c1eca-54f9-4e00-88a6-796d64dae5b7/szfp.bet_bets">
+    <entry file="das://table:/765be1f9/249c1eca-54f9-4e00-88a6-796d64dae5b7/szfp.bet_week">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bet/service/impl/PosFunctionServerImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bet/controller/MakeBetController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bet/controller/PosFunctionController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1175">
-          <caret line="177" column="39" lean-forward="false" selection-start-line="177" selection-start-column="39" selection-end-line="177" selection-end-column="39" />
+        <state relative-caret-position="615">
+          <caret line="187" column="70" lean-forward="false" selection-start-line="187" selection-start-column="70" selection-end-line="187" selection-end-column="70" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bet/model/entities/DataBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-478">
-          <caret line="34" column="28" lean-forward="true" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
-          <folding>
-            <element signature="e#1846#1847#0" expanded="true" />
-            <element signature="e#1878#1879#0" expanded="true" />
-            <element signature="e#3362#3363#0" expanded="true" />
-            <element signature="e#3396#3397#0" expanded="true" />
-          </folding>
+    <entry file="das://table:/765be1f9/249c1eca-54f9-4e00-88a6-796d64dae5b7/szfp.bet_bets">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>

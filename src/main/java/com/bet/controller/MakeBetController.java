@@ -185,7 +185,7 @@ public class MakeBetController extends BaseController {
                             amount = amount + itemAmount;
                             item.setStatus("0");
                             item.setDescription("Success");
-                            item.setBet_id(CalculateUtils.setBetId());
+                            item.setBet_id(CalculateUtils.setBetId()+i);
                         }
                         }
                 }catch (Exception e){
@@ -361,6 +361,9 @@ public class MakeBetController extends BaseController {
                                 case  "4"://60
                                     bet.setWinAmount(produceAmount(Integer.parseInt(bet.getAmount()),games.size(),60,produce));
                                     break;
+                                case  "5"://60
+                                    bet.setWinAmount(produceAmount(Integer.parseInt(bet.getAmount()),games.size(),20,produce));
+                                    break;
                             }
 
                             //修改中奖金额
@@ -400,7 +403,7 @@ public class MakeBetController extends BaseController {
 
      */
     private String produceAmount(int amount, int size, int i1, int produce) {
-        return  String.valueOf( amount/ line(size)   *  line(produce)  * i1) ;
+        return  String.valueOf((int)(((double)amount/(double) line(size)) * (double)line(produce) * (double)i1));
     }
 
     private int line(int size) {
