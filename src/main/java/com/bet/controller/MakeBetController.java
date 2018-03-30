@@ -350,14 +350,49 @@ public class MakeBetController extends BaseController {
                         if (produce>2){
                             switch (bet.getSort()){
                                 case  "1": //100
-                                    bet.setWinAmount(produceAmount(Integer.parseInt(bet.getAmount()),games.size(),100,produce));
+                                    if (lists.size()>=17){
+                                        bet.setWinAmount(produceAmount(Integer.parseInt(bet.getAmount()),games.size(),5,produce));
+                                    }else if (lists.size()>=15){
+
+                                        bet.setWinAmount(produceAmount(Integer.parseInt(bet.getAmount()),games.size(),10,produce));
+                                    }else if (lists.size()>=13){
+
+                                        bet.setWinAmount(produceAmount(Integer.parseInt(bet.getAmount()),games.size(),30,produce));
+                                    }else if (lists.size()>=11){
+
+                                        bet.setWinAmount(produceAmount(Integer.parseInt(bet.getAmount()),games.size(),60,produce));
+                                    }else {
+
+                                        bet.setWinAmount(produceAmount(Integer.parseInt(bet.getAmount()),games.size(),100,produce));
+                                    }
+
                                     break;
                                 case  "2"://80
-                                    bet.setWinAmount(produceAmount(Integer.parseInt(bet.getAmount()),games.size(),80,produce));
+
+                                    if (lists.size()>=17){
+                                        bet.setWinAmount(produceAmount(Integer.parseInt(bet.getAmount()),games.size(),10,produce));
+                                    }else if (lists.size()>=15){
+                                        bet.setWinAmount(produceAmount(Integer.parseInt(bet.getAmount()),games.size(),20,produce));
+                                    }else if (lists.size()>=13){
+                                        bet.setWinAmount(produceAmount(Integer.parseInt(bet.getAmount()),games.size(),40,produce));
+                                    }else{
+                                        bet.setWinAmount(produceAmount(Integer.parseInt(bet.getAmount()),games.size(),80,produce));
+                                    }
+
                                     break;
                                 case  "3"://40
-                                    bet.setWinAmount(produceAmount(Integer.parseInt(bet.getAmount()),games.size(),40,produce));
+
+                                    if (lists.size()>=17){
+                                        bet.setWinAmount(produceAmount(Integer.parseInt(bet.getAmount()),games.size(),10,produce));
+                                    }else if (lists.size()>=15){
+                                        bet.setWinAmount(produceAmount(Integer.parseInt(bet.getAmount()),games.size(),20,produce));
+                                    }else{
+                                        bet.setWinAmount(produceAmount(Integer.parseInt(bet.getAmount()),games.size(),40,produce));
+                                    }
                                     break;
+
+
+
                                 case  "4"://60
                                     bet.setWinAmount(produceAmount(Integer.parseInt(bet.getAmount()),games.size(),60,produce));
                                     break;
@@ -403,7 +438,7 @@ public class MakeBetController extends BaseController {
 
      */
     private String produceAmount(int amount, int size, int i1, int produce) {
-        return  String.valueOf((int)(((double)amount/(double) line(size)) * (double)line(produce) * (double)i1));
+        return  String.valueOf((int)(((double)amount/(double) CalculateUtils.calculate(String.valueOf(produce),size)) * (double)line(produce) * (double)i1));
     }
 
     private int line(int size) {

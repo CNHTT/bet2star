@@ -7,10 +7,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e80779f-e2ce-43b2-b04f-13899c87a6e9" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/bet.war" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bet/controller/MakeBetController.java" afterPath="$PROJECT_DIR$/src/main/java/com/bet/controller/MakeBetController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bet/utils/CalculateUtils.java" afterPath="$PROJECT_DIR$/src/main/java/com/bet/utils/CalculateUtils.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bet/controller/MakeBetController.java" afterPath="$PROJECT_DIR$/src/main/java/com/bet/controller/MakeBetController.java" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bet/controller/LoginController.class" afterPath="$PROJECT_DIR$/target/classes/com/bet/controller/LoginController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bet/controller/MakeBetController.class" afterPath="$PROJECT_DIR$/target/classes/com/bet/controller/MakeBetController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bet/controller/PosFunctionController.class" afterPath="$PROJECT_DIR$/target/classes/com/bet/controller/PosFunctionController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bet/model/entities/MakeBetBean.class" afterPath="$PROJECT_DIR$/target/classes/com/bet/model/entities/MakeBetBean.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bet/model/response/BaseEntity.class" afterPath="$PROJECT_DIR$/target/classes/com/bet/model/response/BaseEntity.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bet/utils/ByteUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/bet/utils/ByteUtils.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bet/utils/ConstUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/bet/utils/ConstUtils.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bet/utils/DataUtils$1.class" afterPath="$PROJECT_DIR$/target/classes/com/bet/utils/DataUtils$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bet/utils/DataUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/bet/utils/DataUtils.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bet/utils/FileUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/bet/utils/FileUtils.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bet/utils/ServerThread.class" afterPath="$PROJECT_DIR$/target/classes/com/bet/utils/ServerThread.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bet/utils/SocketPool$SubThread.class" afterPath="$PROJECT_DIR$/target/classes/com/bet/utils/SocketPool$SubThread.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bet/utils/SocketPool.class" afterPath="$PROJECT_DIR$/target/classes/com/bet/utils/SocketPool.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bet/utils/TimeUtils$1.class" afterPath="$PROJECT_DIR$/target/classes/com/bet/utils/TimeUtils$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bet/utils/TimeUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/bet/utils/TimeUtils.class" />
+      <change beforePath="$PROJECT_DIR$/target/com.bet/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/target/com.bet/META-INF/MANIFEST.MF" />
+      <change beforePath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/controller/LoginController.class" afterPath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/controller/LoginController.class" />
+      <change beforePath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/controller/MakeBetController.class" afterPath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/controller/MakeBetController.class" />
+      <change beforePath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/controller/PosFunctionController.class" afterPath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/controller/PosFunctionController.class" />
+      <change beforePath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/model/entities/MakeBetBean.class" afterPath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/model/entities/MakeBetBean.class" />
+      <change beforePath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/model/response/BaseEntity.class" afterPath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/model/response/BaseEntity.class" />
+      <change beforePath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/utils/ByteUtils.class" afterPath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/utils/ByteUtils.class" />
+      <change beforePath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/utils/ConstUtils.class" afterPath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/utils/ConstUtils.class" />
+      <change beforePath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/utils/DataUtils$1.class" afterPath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/utils/DataUtils$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/utils/DataUtils.class" afterPath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/utils/DataUtils.class" />
+      <change beforePath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/utils/FileUtils.class" afterPath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/utils/FileUtils.class" />
+      <change beforePath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/utils/ServerThread.class" afterPath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/utils/ServerThread.class" />
+      <change beforePath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/utils/SocketPool$SubThread.class" afterPath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/utils/SocketPool$SubThread.class" />
+      <change beforePath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/utils/SocketPool.class" afterPath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/utils/SocketPool.class" />
+      <change beforePath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/utils/TimeUtils$1.class" afterPath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/utils/TimeUtils$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/utils/TimeUtils.class" afterPath="$PROJECT_DIR$/target/com.bet/WEB-INF/classes/com/bet/utils/TimeUtils.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,22 +79,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="bet_week" pinned="false" current-in-tab="false">
-        <entry file="das://table:/765be1f9/249c1eca-54f9-4e00-88a6-796d64dae5b7/szfp.bet_week">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MakeBetController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MakeBetController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/bet/controller/MakeBetController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="187" column="70" lean-forward="false" selection-start-line="187" selection-start-column="70" selection-end-line="187" selection-end-column="70" />
+            <state relative-caret-position="7">
+              <caret line="446" column="0" lean-forward="false" selection-start-line="446" selection-start-column="0" selection-end-line="446" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#9238#9246#0" expanded="true" />
+                <element signature="e#16225#16226#0" expanded="true" />
+                <element signature="e#16274#16275#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -74,45 +97,9 @@
       <file leaf-file-name="CalculateUtils.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/bet/utils/CalculateUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="837">
+            <state relative-caret-position="1273">
               <caret line="74" column="58" lean-forward="false" selection-start-line="74" selection-start-column="58" selection-end-line="74" selection-end-column="58" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bet_user" pinned="false" current-in-tab="false">
-        <entry file="das://table:/765be1f9/249c1eca-54f9-4e00-88a6-796d64dae5b7/szfp.bet_user">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bet_makebet" pinned="false" current-in-tab="false">
-        <entry file="das://table:/765be1f9/249c1eca-54f9-4e00-88a6-796d64dae5b7/szfp.bet_makebet">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bet_groups" pinned="false" current-in-tab="false">
-        <entry file="das://table:/765be1f9/249c1eca-54f9-4e00-88a6-796d64dae5b7/szfp.bet_groups">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bet_bets" pinned="false" current-in-tab="true">
-        <entry file="das://table:/765be1f9/249c1eca-54f9-4e00-88a6-796d64dae5b7/szfp.bet_bets">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -217,11 +204,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-255" />
-    <option name="y" value="71" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="683" />
+    <option name="y" value="115" />
     <option name="width" value="1896" />
-    <option name="height" value="1098" />
+    <option name="height" value="1100" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -239,7 +226,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -271,15 +259,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bet2star" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bet2star" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="bet" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -288,50 +267,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="bet" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bet2star" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bet2star" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="bet" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bet2star" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bet2star" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="bet" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bet2star" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bet2star" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="bet" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bet2star" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bet2star" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="bet" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bet2star" type="b2602c69:ProjectViewProjectNode" />
@@ -372,8 +309,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -422,6 +358,13 @@
     </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.Unnamed">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
     <configuration name="CalculateUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -441,7 +384,83 @@
       <module name="bet2star" />
       <envs />
     </configuration>
-    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.16" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.29" ALTERNATIVE_JRE_ENABLED="false">
       <option name="COMMON_VM_ARGUMENTS" value=" -Dfile.encoding=UTF-8" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -514,102 +533,11 @@
         </option>
       </method>
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-    </configuration>
-    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
-      <setting name="vmparams" value="" />
-      <setting name="cmdLine" value="run-app" />
-      <setting name="passParentEnv" value="true" />
-      <setting name="launchBrowser" value="true" />
-      <setting name="launchBrowserUrl" value="" />
-      <setting name="depsClasspath" value="false" />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
@@ -977,6 +905,14 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
     <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Unnamed" />
       <item index="1" class="java.lang.String" itemvalue="Application.CalculateUtils" />
@@ -994,6 +930,9 @@
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -1021,14 +960,15 @@
       <workItem from="1521635375370" duration="2460000" />
       <workItem from="1521957019617" duration="571000" />
       <workItem from="1522241925883" duration="3111000" />
+      <workItem from="1522385727937" duration="2093000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148420000" />
+    <option name="totallyTimeSpent" value="150513000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-255" y="71" width="1896" height="1098" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52834225" sideWeight="0.21695095" order="7" side_tool="true" content_ui="tabs" />
@@ -1050,11 +990,11 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38609627" sideWeight="0.78304905" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40489432" sideWeight="0.78304905" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21568628" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21321961" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1084,7 +1024,7 @@
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13752665" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13752665" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1097,12 +1037,12 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38609627" sideWeight="0.78304905" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38609627" sideWeight="0.78304905" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47807488" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21108742" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21321961" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1305,13 +1245,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_20/src.zip!/java/util/Calendar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="614" column="36" lean-forward="false" selection-start-line="614" selection-start-column="28" selection-end-line="614" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_20/src.zip!/java/util/Calendar.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bet/utils/TimeUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -1326,20 +1260,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://src:table:/765be1f9/249c1eca-54f9-4e00-88a6-796d64dae5b7/szfp.bet_bets">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="59" lean-forward="true" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/249c1eca-54f9-4e00-88a6-796d64dae5b7/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="32" column="70" lean-forward="true" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://src:table:/765be1f9/249c1eca-54f9-4e00-88a6-796d64dae5b7/szfp.bet_bets" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/249c1eca-54f9-4e00-88a6-796d64dae5b7/console.sql" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bet/model/entities/MakeBet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-48">
@@ -1405,7 +1327,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1413,9 +1334,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1888">
           <caret line="133" column="0" lean-forward="false" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
-          <folding>
-            <element signature="e#3864#3865#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1423,7 +1341,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1431,23 +1348,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1616">
           <caret line="101" column="96" lean-forward="false" selection-start-line="101" selection-start-column="96" selection-end-line="101" selection-end-column="96" />
-          <folding>
-            <marker date="1521553016742" expanded="true" signature="268:301" ph="SELECT count... bet_makebet" />
-            <marker date="1521553016742" expanded="true" signature="2129:2271" ph="SELECT playe... bet_makebet" />
-            <marker date="1521553016742" expanded="true" signature="2377:2458" ph="SELECT bet_i... bet_bets" />
-            <marker date="1521553016742" expanded="true" signature="2563:2639" ph="SELECT bet_g... bet_groups" />
-            <marker date="1521553016742" expanded="true" signature="2745:2867" ph="SELECT count... " />
-            <marker date="1521553016742" expanded="true" signature="2971:3257" ph="SELECT bet_u... bet_user" />
-            <marker date="1521553016742" expanded="true" signature="3176:3257" ph="SELECT bet_u... bet_user" />
-            <marker date="1521553016742" expanded="true" signature="3313:3467" ph="UPDATE szfp.... " />
-            <marker date="1521553016742" expanded="true" signature="3567:3811" ph="SELECT bet_b... bet_makebet" />
-            <marker date="1521553016742" expanded="true" signature="3890:4113" ph="SELECT sum( bet_makebet" />
-            <marker date="1521553016742" expanded="true" signature="4213:4447" ph="SELECT bet_b... bet_makebet" />
-            <marker date="1521553016742" expanded="true" signature="4213:4458" ph="SELECT bet_b... bet_makebet" />
-            <marker date="1521553016742" expanded="true" signature="4516:4641" ph="UPDATE szfp.... " />
-            <marker date="1521553016742" expanded="true" signature="4695:4769" ph="UPDATE szfp.... " />
-            <marker date="1521553016742" expanded="true" signature="4819:4886" ph="INSERT INTO bet_week... " />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1455,7 +1356,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-128">
           <caret line="34" column="28" lean-forward="false" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1469,59 +1369,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/765be1f9/249c1eca-54f9-4e00-88a6-796d64dae5b7/szfp.bet_user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/765be1f9/249c1eca-54f9-4e00-88a6-796d64dae5b7/szfp.bet_groups">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://table:/765be1f9/249c1eca-54f9-4e00-88a6-796d64dae5b7/szfp.bet_user" />
+    <entry file="das://table:/765be1f9/249c1eca-54f9-4e00-88a6-796d64dae5b7/szfp.bet_groups" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bet/utils/CalculateUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="837">
+        <state relative-caret-position="1273">
           <caret line="74" column="58" lean-forward="false" selection-start-line="74" selection-start-column="58" selection-end-line="74" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/765be1f9/249c1eca-54f9-4e00-88a6-796d64dae5b7/szfp.bet_makebet">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/765be1f9/249c1eca-54f9-4e00-88a6-796d64dae5b7/szfp.bet_week">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://table:/765be1f9/249c1eca-54f9-4e00-88a6-796d64dae5b7/szfp.bet_makebet" />
+    <entry file="das://table:/765be1f9/249c1eca-54f9-4e00-88a6-796d64dae5b7/szfp.bet_week" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bet/controller/MakeBetController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="187" column="70" lean-forward="false" selection-start-line="187" selection-start-column="70" selection-end-line="187" selection-end-column="70" />
+        <state relative-caret-position="7">
+          <caret line="446" column="0" lean-forward="false" selection-start-line="446" selection-start-column="0" selection-end-line="446" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#9238#9246#0" expanded="true" />
+            <element signature="e#16225#16226#0" expanded="true" />
+            <element signature="e#16274#16275#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/765be1f9/249c1eca-54f9-4e00-88a6-796d64dae5b7/szfp.bet_bets">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://table:/765be1f9/249c1eca-54f9-4e00-88a6-796d64dae5b7/szfp.bet_bets" />
   </component>
   <component name="masterDetails">
     <states>
