@@ -20,7 +20,7 @@ import java.util.List;
 
 @Controller
 @RequestMapping("api/posfunction")
-public class PosFunctionController extends BaseController {
+public class PosFunctionCssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssontroller extends BaseController {
 
 
     @Resource
